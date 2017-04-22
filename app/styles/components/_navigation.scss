@@ -10,4 +10,11 @@
     display: inline;
     padding: 0;
   }
+  .menu {
+    a {
+      &.active-link {
+      font-weight: bold;
+    }
+    }
+  }
 }
